@@ -1,0 +1,10 @@
+bundler_args:
+  --without development debug darwin
+
+language: ruby
+
+script: "bundle exec rspec"
+
+rvm:
+  - 1.9.2
+  - 1.9.3
