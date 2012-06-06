@@ -6,7 +6,7 @@ language: ruby
 before_script:
   - "sudo killall redis-server"
   - "spec/redis-server &"
-  - "sleep 2"
+  - "sleep 5"
 
 script: "bundle exec rspec --backtrace"
 
