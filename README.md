@@ -1,4 +1,4 @@
-# Rack::Firehose
+# Rack::Firehose [![Build Status](https://secure.travis-ci.org/jch/rack-firehose.png)](http://travis-ci.org/jch/rack-firehose)
 
 rack-firehose is middleware that mounts a rack application alongside [Firehose.io](http://firehose.io/) and provides a convenience DSL for accessing it.
 
