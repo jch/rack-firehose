@@ -12,14 +12,10 @@ group :development do
 end
 
 group :development, :test do
-  gem 'rake'
-  gem 'rack-test'
   gem 'rspec', '~> 2.9'
   gem 'bundler'
-  gem 'pry'
   gem 'faraday'
-  gem 'thin'
-  gem 'em-http-request'
+  gem 'thin', '~> 1.3'
   gem 'sinatra'
   gem 'redis'
 end

@@ -3,7 +3,12 @@ bundler_args:
 
 language: ruby
 
-script: "bundle exec rspec"
+before_script:
+  - "sudo killall redis-server"
+  - "spec/redis-server &"
+  - "sleep 2"
+
+script: "bundle exec rspec --backtrace"
 
 rvm:
   - 1.9.2
