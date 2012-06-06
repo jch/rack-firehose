@@ -47,3 +47,8 @@ From your terminal:
 ```sh
 bundle
 ```
+
+## Related Reference
+
+* [Firehose.io](http://firehose.io) pubsub HTTP server
+* [rack-stream](http://github.com/intridea/rack-stream) multi-transport streaming middleware
